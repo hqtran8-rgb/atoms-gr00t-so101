@@ -1,0 +1,55 @@
+# Secrets / local config
+.env
+*.pem
+*.key
+id_*
+*_ed25519
+*_rsa
+
+# Model weights and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.trt
+checkpoints/
+outputs/
+
+# Datasets, recordings, and derived media
+*.mp4
+*.avi
+*.mov
+*.parquet
+*.npz
+data/
+datasets/
+recordings/
+demo_data/
+videos/
+
+# Git bundles / large transport artifacts
+*.bundle
+
+# Caches / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.cache/
+wandb/
+logs/
+*.log
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Backup / scratch files
+*.backup_*
+*.before_*
+*.bak
+*.tmp
